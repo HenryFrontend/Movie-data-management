@@ -173,7 +173,7 @@ listItemArr.map(item=>{
 })
 
 
-fetch("https://henryfrontend.github.io/Movie-Source-Data/db.json/hello")
+fetch("https://henryfrontend.github.io/Movie-Source-Data")
 .then(res=>{
     res.json()
 })
