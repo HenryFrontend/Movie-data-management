@@ -171,3 +171,12 @@ listItemArr.map(item=>{
         item.style.border = "1px solid blue"
     }
 })
+
+
+fetch("https://henryfrontend.github.io/Movie-Source-Data/db.json/hello")
+.then(res=>{
+    res.json()
+})
+.then(source=>{
+    console.log(source)
+})
